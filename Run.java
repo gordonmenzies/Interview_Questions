@@ -1,4 +1,4 @@
-public class Main {
+public class Run {
     public static int[] plusOne(int[] digits) {
         if (digits[digits.length] != 9) {
             digits[digits.length - 1] = digits[digits.length - 1] + 1;
@@ -19,7 +19,7 @@ public class Main {
         }
     }
 
-    public static void main(string[] args) {
+    public static void main(String[] args) {
         int[] testCaseOne = { 1, 2, 3, 4 };
         int[] testCaseTwo = { 9 };
         int[] testCaseThree = { 5, 3, 8, 5, 2, 5 };
@@ -39,5 +39,4 @@ public class Main {
             System.out.println(number);
         }
     }
-
 }
